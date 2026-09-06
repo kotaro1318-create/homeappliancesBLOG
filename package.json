@@ -1,0 +1,31 @@
+{
+  "name": "homeappliancesblog",
+  "version": "1.0.0",
+  "description": "最新の家電・家具に関する情報を毎日1記事ずつ書き溜めていくブログの原稿置き場です。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "post-to-instagram": "node scripts/post-to-instagram.mjs",
+    "post-to-instagram:dry-run": "cross-env DRY_RUN=true node scripts/post-to-instagram.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kotaro1318-create/homeappliancesBLOG.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/kotaro1318-create/homeappliancesBLOG/issues"
+  },
+  "homepage": "https://github.com/kotaro1318-create/homeappliancesBLOG#readme",
+  "dependencies": {
+    "@resvg/resvg-js": "^2.6.2",
+    "gray-matter": "^4.0.3",
+    "satori": "^0.33.4"
+  },
+  "devDependencies": {
+    "cross-env": "^10.1.0"
+  }
+}
